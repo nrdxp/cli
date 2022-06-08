@@ -19,7 +19,7 @@
 	},
 	"scripts": {
 		"compile": "npm-run-all clean definitions tsc-b",
-		"tsc-b": "tsc -b",
+		"build": "tsc -b",
 		"watch": "npm-run-all clean definitions tsc-b-w",
 		"tsc-b-w": "tsc -b -w",
 		"precommit": "node build/hygiene.js",
